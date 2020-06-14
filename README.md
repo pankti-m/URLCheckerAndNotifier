@@ -4,10 +4,10 @@ not.  Redirect(30x) is not treated as a success response.
 Prerequisite: A twilio account where you can receive messages is required to use
 this script.
 
-Usage: python check_url_status <url>
+Usage: python "check_url_status <url>"
 
 Exceptions:
-TimeoutsException: The script throws a timeout exception if the server hosting
+TimeoutException: The script throws a timeout exception if the server hosting
 the webpage has not reponded in 10 seconds.
 
 ConnectionError: ConnectionError is thrown in case of any network errors, such
