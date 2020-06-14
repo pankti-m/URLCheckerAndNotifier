@@ -6,7 +6,7 @@ this script.
 
 Usage: "python check_url_status <i>url</i>"
 
-Exceptions:
+Exceptions:<br /> 
 TimeoutException: The script throws a timeout exception if the server hosting
 the webpage has not reponded in 10 seconds.
 
